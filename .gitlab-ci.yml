@@ -31,6 +31,7 @@ clang-format:
   #  - Linux
   #  - Windows
     - Parallelized
+    - Format
 
 #LINUX BUILD - BUILDS LINUX APPIMAGE
 build-linux:
@@ -77,6 +78,6 @@ android:
     paths:
       - artifacts/*
   tags:
-    - Linux
+    - Android
     - Parallelized
 
